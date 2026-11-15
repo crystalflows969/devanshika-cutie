@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff0f5"><title>Devanshika ♡ My Man</title>
+<style>
+:root{--bg:#fff8f7;--pink:#efa9c1;--pink2:#ffe3ed;--peach:#ffd8c5;--peach2:#fff0e8;--text:#674958;--muted:#987887;--cream:#fffdfb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;color:var(--text);font-family:"Trebuchet MS",Georgia,serif;background:radial-gradient(ellipse at 8% 8%,#ffe2ed 0,transparent 36%),radial-gradient(ellipse at 92% 24%,#ffe5d6 0,transparent 34%),radial-gradient(ellipse at 50% 92%,#fff0e9 0,transparent 38%),var(--bg);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.42;background-image:radial-gradient(#f4b7ca 1px,transparent 1px),radial-gradient(#f7cbb5 1px,transparent 1px);background-size:43px 43px,79px 79px;background-position:0 0,19px 27px}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:70px 18px;position:relative;isolation:isolate}
+.hero:before,.hero:after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;filter:blur(85px);opacity:.42;z-index:-1}.hero:before{background:#ffc5dc;left:-110px;top:10%}.hero:after{background:#ffd0b5;right:-100px;bottom:5%}
+.hero-inner{max-width:900px}.eyebrow,.chapter{font:700 .72rem Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#d27f9e}
+h1{font-size:clamp(3.5rem,11vw,7.5rem);line-height:.91;letter-spacing:-3px;margin:24px 0;background:linear-gradient(110deg,#d77f9f,#f2a9bd 48%,#e9a98d);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:clamp(1rem,2.5vw,1.25rem);line-height:1.9;color:var(--muted)}.doodle{font-size:1.45rem;letter-spacing:8px;margin:22px 0;filter:drop-shadow(0 0 12px #f5a9a955)}
+.btn{border:1px solid #f2c4d2;border-radius:999px;padding:14px 23px;color:#fff;font-size:1rem;font-weight:800;background:linear-gradient(110deg,#df8eae,#f3b5c8);box-shadow:0 8px 22px #e8a0bc55;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-3px) scale(1.035)}.btn.pink{background:linear-gradient(110deg,#e89bb7,#f7c3d2)}.btn.green{background:linear-gradient(110deg,#f2b79f,#f8d1bd);color:#704c4c;border-color:#f4c8b5}
+main{padding:0 14px 35px}.section{width:min(960px,100%);margin:0 auto 30px;padding:clamp(24px,5vw,48px);border-radius:30px;border:1px solid #f3d5dc;background:linear-gradient(145deg,#fffdfcfa,#fff5f1f5);box-shadow:0 18px 55px #d99bad2b,inset 0 1px #fff;position:relative;overflow:hidden}.section:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(120deg,#ffe2ed55,transparent 38%,#ffeadc55 76%)}.section>*{position:relative}
+h2{font-size:clamp(2rem,6vw,3.35rem);line-height:1.05;margin:13px 0 9px;color:#c87998}.subtitle{color:#d99780;font:700 .78rem Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;margin:0 0 24px}
+.paragraph{font-size:clamp(1rem,2.3vw,1.1rem);line-height:2.02;color:#765766;white-space:pre-line}.photo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:15px;margin:23px 0}.photo{border:1px solid #f0d0d8;border-radius:22px;overflow:hidden;background:linear-gradient(145deg,#ffe3ed,#fff0e6 65%,#fffaf7);box-shadow:0 10px 26px #d99bad30}.photo img{display:block;width:100%;height:290px;object-fit:cover}.placeholder{min-height:245px;display:grid;place-content:center;text-align:center;padding:18px;color:#a66f83;line-height:1.7}.placeholder b{display:block;font-size:2.5rem;margin-bottom:9px}.placeholder small{color:#c28da0}
+.love-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin:20px 0}.tag{padding:9px 14px;border-radius:999px;border:1px solid #f1d1dc;background:#fff8f7;color:#bd7892;font:700 .76rem Arial,sans-serif}.tag:nth-child(3n+1){color:#c87998}.tag:nth-child(3n+2){color:#d18d78}.tag:nth-child(3n){color:#bd8292}
+.lovenote{margin:22px 0;padding:20px;border-radius:20px;border:1px solid #f2d4dc;background:linear-gradient(120deg,#fff0f5,#fff8f2,#fff0e8);line-height:1.8}.lovenote strong{display:block;font:700 .7rem Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#c77e99;margin-bottom:8px}
+.choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:22px 0}.choices .btn{min-height:58px}.response{min-height:24px;margin-top:15px;color:#bd7892;line-height:1.8;font-size:1.05rem;text-align:center}.divider{height:1px;margin:26px 0;background:linear-gradient(90deg,transparent,#f0b6cb,#f5c5ac,transparent)}.footer{text-align:center;padding:55px 20px 80px;color:var(--muted);line-height:2}.footer h2{color:#d184a1}.float{position:fixed;z-index:99;pointer-events:none;left:0;top:0;will-change:transform,opacity}
+@keyframes pop{0%{transform:translate(0,0) scale(.2);opacity:0}15%{opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(1.2) rotate(25deg);opacity:0}}
+@media(max-width:560px){.section{border-radius:22px}.choices{grid-template-columns:1fr}.photo img{height:260px}}
+</style></head><body>
+<header class="hero"><div class="hero-inner">
+<div class="eyebrow">a tiny love letter for my favourite human ✦</div><div class="doodle">🎀 💗 🤍 🍑 💌</div>
+<h1>DEVANSHIKA<br>♡</h1><p>two people, one very cute story & a whole lot of loveee 🥹<br>for my kuchupuchuuu, my januuu, MY MAN 💌</p>
+<button class="btn" onclick="go('us');popEmojis(['✨','💗','🦋','💙'],35)">Open our little world ✨</button><div class="doodle">୨୧ 🦋 ✧ 🌷 ✧ 🦋 ୨୧</div>
+</div></header><main>
+<section class="section" id="us"><div class="chapter">✦ 01 · the two of us</div><h2>US — Devanshika 🫶</h2><div class="subtitle">my favourite person, my favourite story</div>
+<div class="photo-grid">
+<div class="photo"><img src="images/us-1.png" alt="Devanshika photo 1" onerror="fallback(this,'🫶💗','Our photo 1','images/us-1.png')"></div>
+<div class="photo"><img src="images/us-2.png" alt="Devanshika photo 2" onerror="fallback(this,'🥹💙','Our photo 2','images/us-2.png')"></div>
+<div class="photo"><img src="images/us-3.png" alt="Devanshika photo 3" onerror="fallback(this,'🌷💚','Our photo 3','images/us-3.png')"></div></div>
+<div class="love-tags"><span class="tag">Devansh + Vanshika 💞</span><span class="tag">my favourite duo 🧸</span><span class="tag">US ALWAYS ♾️</span></div>
+<div class="lovenote"><strong>little reminder 💌</strong>Out of all the random things in this world, I am so glad our paths crossed. 🥹✨</div></section>
+
+<section class="section" id="him"><div class="chapter">✦ 02 · the things i adore</div><h2>My kuchupuchuuu 🧸</h2><div class="subtitle">eyes · smile · face · gestures · efforts</div>
+<div class="lovenote"><strong>all the little things i adore 🥹</strong>Your chote se eyes 👀, specs 🤓, smileee 😭, gestures 🫶, efforts 💚 and all your cute nakhre. Muahhhhh 💋</div>
+<div class="doodle">👀 🤓 🥹 💗 😚 🫶</div><div class="love-tags"><span class="tag">those little eyes 👀</span><span class="tag">that smileee 😭</span><span class="tag">my smart man 🧠</span><span class="tag">all your efforts 💚</span></div></section>
+
+<section class="section" id="sorry"><div class="chapter">✦ 03 · a little sorry</div><h2>SORRYYYY JANUUU 🥺</h2><div class="subtitle">for these two days, and for making you miss me</div>
+<div class="paragraph">ye do din k cant talk busy thi thoda vo kaam me shadi k isliye varna mere kuchupuchu k liye no kaam my man first muahhh</div>
+<div class="doodle">🥺 🥹 💗 🫂 💋</div><div class="lovenote"><strong>my promise, my man 💚</strong>You're important to me. I never want you to feel that you aren't. Thank you for understanding me, januuu. 🫶</div></section>
+
+<section class="section" id="forgive"><div class="chapter">✦ 04 · the important question</div><h2>KYA MERE JANUUU NE MAAF KIYA? 🥺</h2><div class="subtitle">choose your answer, my kuchupuchuuu</div>
+<div class="choices"><button class="btn green" onclick="forgive(this)">YESS 💗</button><button class="btn pink" onclick="forgive(this)">YESSSSSS 🥹</button><button class="btn" onclick="forgive(this)">YESSSSSSSS 💋</button></div><div class="response" aria-live="polite"></div>
+<div class="divider"></div><div class="photo-grid">
+<div class="photo"><img src="images/us-4.png" alt="Another Devanshika photo" onerror="fallback(this,'💞📸','Another cute us photo','images/us-4.png')"></div>
+<div class="photo"><img src="images/us-5.png" alt="Another memory" onerror="fallback(this,'🌸🫂','One more favourite memory','images/us-5.png')"></div></div></section>
+
+<section class="section" id="best"><div class="chapter">✦ 05 · the best thing</div><h2>KYA AAP DEKHNA PASAND KRE BEST THING THAT HAPPEN TO ME? 💌</h2><div class="subtitle">MY MAN</div>
+<div class="photo-grid"><div class="photo"><img src="images/my-man.png" alt="My man Devansh" onerror="fallback(this,'🖤💙','Add your favourite Devansh photo','images/my-man.png')"></div></div>
+<div class="doodle">૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა 💗</div><div class="paragraph">love us oo muchh my kuchupuchuuu</div></section>
+
+<section class="section" id="story"><div class="chapter">✦ 06 · the day we met</div><h2>THE DAY WE MET 🦋</h2><div class="subtitle">from a random hinge match to my favourite person</div>
+<div class="photo-grid"><div class="photo"><img src="images/us-6.png" alt="Our first memories" onerror="fallback(this,'☕💘','Add a favourite memory','images/us-6.png')"></div><div class="photo"><img src="images/us-7.png" alt="Our photo" onerror="fallback(this,'🧸💞','Add another photo of us','images/us-7.png')"></div></div>
+<div class="paragraph">The day we meet on hinge mujhe nhi pta tha k ye idhar tak live mai koi ko itna pasand krne lagungii like bht yrr i loveeee youuuu sooo muchhh alott alott jab hum mile the date pr u were late and mujhe kis k liye ruka nhi pasand and then tu aya lo bhai i was like ye sach bol raha hai iske life ki first date hai..tall and moreno add emojis soo funny yr cutie pookie muahhhhh...and ghar drop krna fir mere nakhre karne fake baddie k was worst part for you mujhe nhi tha k mujhe kabhi like love ho sakta haii i mean pyaar ye sab past k baad se idk bhai k mujhe pyaar ho jayega first date se abhi tak like skip 2 months...uske baad se thoda mistakes wala part bhi bhul jana mere kuchupuchuu...aur tujhe ragebait krne me jo maza aate haina ek cutiee lagta hai yrr..k yr kya hogaya hai tujhe ye vo mast muahhhhh add kissing emojii evil and hug emojis....i never thought k mujhe devansh jo mene randomly book pr likha tha school me v and d in heart in future exist krta haii sooooo deep bhaiii....loveeeee youuuuuuuuu sooooooooooooooooooomuchhhhh missssiii uuu yrrr my babyy my januu my kadiii add funny emoji, muahhhh add kissing emoji...</div>
+<div class="doodle">☕ 😈 💋 🫂 🥹 💗</div></section>
+
+<section class="section" id="tall"><div class="chapter">✦ 07 · my handsome boy</div><h2>DEVANSH — TALL & MORENO 🖤</h2><div class="subtitle">my specs wala handsome boy 🤓</div>
+<div class="photo-grid"><div class="photo"><img src="images/devansh-1.png" alt="Devansh portrait" onerror="fallback(this,'🤓🖤','Add Devansh photo','images/devansh-1.png')"></div><div class="photo"><img src="images/devans-2.png" alt="Devansh smiling" onerror="fallback(this,'🥹💙','Add his smiling photo','images/devans-2.png')"></div></div>
+<div class="paragraph">yr u loook so handsome yrrr your chote se eyes uske upar frame kre specs and your smile vo jor jor se hasna mujhe ragebait kr k fir bolte hun devansh..fir tu bole bass ab mai hasu bhi nhi awww januu haste rahe hai mere reh muahhh soooo muchhhh loveeee yooouuu soooo muchhh kuchupuchu januuuu darlingggg myyyy mannn aur jab gussa krta hai bhai thoda u need to control accha nhi lagta hai soo januu isliye...aur jab nakhre krta hai soo funny cutie pookie muahhh...aur yaad hai LD wala jab mene bolta k mummy ko pta chal jayega i cant kya face tha tera ek dam meri (vanshika) ki aatam tere andar aur teri aatam mere andar bhaii soo funnny mujhheeee itni hassi aa rahe thiii k kitna cutie lag raha hai aur krte hunn muahhh yrr soo much ab jisa bhi hai mera haii be mineee kuchupuchuuuuu muahhhh loveeeee youuuuuuuuuuuuuuuuu soooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooomuchhhhhhhhhhhhhhh alootttt</div></section>
+
+<section class="section" id="stay"><div class="chapter">✦ 08 · one last question</div><h2>KYA AAP MERE REHNA CHAHTE HOO?? 🥺</h2><div class="subtitle">say yes, my januuu 💗</div>
+<div class="choices"><button class="btn green" onclick="stayYes()">yes 💚</button><button class="btn pink" onclick="stayYes()">yessss 💋</button><button class="btn" onclick="stayYes()">YESSSSS 🥹</button></div><div class="response" id="stayResponse" aria-live="polite"></div></section>
+</main><footer class="footer"><div class="doodle">🎀 💗 🤍 🍑 💌</div><h2>DEVANSHIKA — US ALWAYS ♡</h2>made with all my love, Vanshika 💌<br><strong>why Devansh is Vanshika's favourite person.</strong> 🥹💙💚<br><span style="font:12px Arial,sans-serif;color:#9ca7bd">my man, my kuchupuchu, my favourite human ✨</span></footer>
+<script>
+function go(id){document.getElementById(id).scrollIntoView({behavior:'smooth'})}
+function fallback(img,emoji,label,path){img.outerHTML='<div class="placeholder"><b>'+emoji+'</b>'+label+'<br><small>Expected file: '+path+'</small></div>'}
+function popEmojis(items,count=42){for(let i=0;i<count;i++){const e=document.createElement('span');e.className='float';e.textContent=items[Math.floor(Math.random()*items.length)];e.style.left=(innerWidth*(.04+Math.random()*.92))+'px';e.style.top=(innerHeight*(.45+Math.random()*.5))+'px';e.style.fontSize=(20+Math.random()*28)+'px';e.style.setProperty('--dx',(Math.random()*260-130)+'px');e.style.setProperty('--dy',(-150-Math.random()*420)+'px');e.style.animation='pop '+(1.5+Math.random()*1.5)+'s ease-out forwards';document.body.appendChild(e);setTimeout(()=>e.remove(),3300)}}
+function fireworks(){const colors=['#f3a9c3','#ffd7c2','#fff0f5','#ffffff','#e9a6bc'];for(let n=0;n<6;n++)setTimeout(()=>{const x=innerWidth*(.15+Math.random()*.7),y=innerHeight*(.12+Math.random()*.5);for(let i=0;i<22;i++){const p=document.createElement('i');p.className='float';p.textContent='✦';p.style.left=x+'px';p.style.top=y+'px';p.style.color=colors[Math.floor(Math.random()*colors.length)];p.style.fontSize='18px';const a=2*Math.PI*i/22,d=50+Math.random()*95;p.style.setProperty('--dx',Math.cos(a)*d+'px');p.style.setProperty('--dy',Math.sin(a)*d+'px');p.style.animation='pop 1.1s ease-out forwards';document.body.appendChild(p);setTimeout(()=>p.remove(),1200)}},n*150)}
+function forgive(btn){const r=btn.parentElement.nextElementSibling;r.textContent='YAYYYYY MY JANUUU 🥹💋💗';popEmojis(['💋','💗','💖','💕','💞','❤️','🫶','🥹','💚','💙'],65);fireworks()}
+function stayYes(){document.getElementById('stayResponse').textContent='YESSSS MY MANNNN 🥹💋 muahhh my man lovii uu misssii u moreeee 💗💗💗';popEmojis(['💋','💗','💖','💕','💞','❤️','🫂','🥹','💚','💙'],85);fireworks()}
+</script></body></html>
